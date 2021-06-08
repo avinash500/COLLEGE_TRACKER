@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <com.anychart.AnyChartView
+        android:id="@+id/Chart"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+
+
+</LinearLayout>

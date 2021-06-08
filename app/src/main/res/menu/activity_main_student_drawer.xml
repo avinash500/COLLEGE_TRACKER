@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sattendance"
+            android:icon="@drawable/take_attendance"
+            android:title="@string/menu_sattendance" />
+        <item
+            android:id="@+id/nav_schat"
+            android:icon="@drawable/chat"
+            android:title="@string/menu_schat" />
+        <item
+            android:id="@+id/nav_snotes"
+            android:icon="@drawable/notes"
+            android:title="@string/menu_snotes" />
+<!--        <item-->
+<!--            android:id="@+id/nav_ssocial"-->
+<!--            android:icon="@drawable/connection"-->
+<!--            android:title="@string/menu_ssocial" />-->
+        <item
+            android:id="@+id/nav_sclub"
+            android:icon="@drawable/connection"
+            android:title="@string/menu_club" />
+
+        <item
+            android:id="@+id/nav_sforum"
+            android:icon="@drawable/discussion"
+            android:title="@string/menu_forum" />
+
+        <item
+            android:id="@+id/nav_squestion"
+            android:icon="@drawable/question"
+            android:title="@string/menu_question" />
+
+        <item
+            android:id="@+id/nav_sresult"
+            android:icon="@drawable/result"
+            android:title="@string/menu_results" />
+
+        <item
+            android:id="@+id/nav_snotice"
+            android:icon="@drawable/news"
+            android:title="@string/menu_notice" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+        </menu>
+    </item>
+
+</menu>

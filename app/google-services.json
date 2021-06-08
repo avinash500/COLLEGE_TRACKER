@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "47167239335",
+    "firebase_url": "https://collegetracker-a7236.firebaseio.com",
+    "project_id": "collegetracker-a7236",
+    "storage_bucket": "collegetracker-a7236.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47167239335:android:f9f0662a4bc37c94b01782",
+        "android_client_info": {
+          "package_name": "com.example.collegetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47167239335-aptahg4c7a3fgqn2b8edbaqpkpoq8o92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegetracker",
+            "certificate_hash": "aa3bd599cc1240933c710a579ad2eaf4959b1fe4"
+          }
+        },
+        {
+          "client_id": "47167239335-5rjig2t3t5rfof6vgs74id7mu6r1ouum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlOGJen_EUmwB0vNoV5vMx7gyhve_Yn8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47167239335-5rjig2t3t5rfof6vgs74id7mu6r1ouum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47167239335:android:3efd36542143b25bb01782",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47167239335-ubj0e2bnk76fflcgbkehpa204br630d1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finalproject",
+            "certificate_hash": "dd56a44f855457093b7bb39360308f7024b8b5c2"
+          }
+        },
+        {
+          "client_id": "47167239335-5rjig2t3t5rfof6vgs74id7mu6r1ouum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlOGJen_EUmwB0vNoV5vMx7gyhve_Yn8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47167239335-5rjig2t3t5rfof6vgs74id7mu6r1ouum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47167239335:android:a46cf899dbff8d50b01782",
+        "android_client_info": {
+          "package_name": "com.example.firebase_student"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47167239335-5rjig2t3t5rfof6vgs74id7mu6r1ouum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlOGJen_EUmwB0vNoV5vMx7gyhve_Yn8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47167239335-5rjig2t3t5rfof6vgs74id7mu6r1ouum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/abril_fatface</item>
+        <item>@font/alef</item>
+        <item>@font/alegreya_sans_sc_bold</item>
+        <item>@font/alegreya_sans_sc_medium_italic</item>
+        <item>@font/allerta</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/almendra_bold</item>
+        <item>@font/arbutus</item>
+        <item>@font/average_sans</item>
+        <item>@font/baloo_thambi</item>
+        <item>@font/candal</item>
+        <item>@font/carter_one</item>
+    </array>
+</resources>

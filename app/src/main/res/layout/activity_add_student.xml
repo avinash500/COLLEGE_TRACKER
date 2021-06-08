@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".AddStudent"
+    android:background="@drawable/centre_background">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="@drawable/centre_background">
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/colorPrimaryText"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="293dp"
+                android:background="@drawable/centre_background">
+
+                <ImageView
+                    android:layout_width="196dp"
+                    android:layout_height="268dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:src="@drawable/enquiry_bk" />
+
+            </RelativeLayout>
+
+            <!--        <androidx.appcompat.widget.Toolbar-->
+            <!--            android:id="@+id/toolbar"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="?attr/actionBarSize"-->
+            <!--            app:layout_collapseMode="pin"-->
+            <!--            android:background="@drawable/centre_background"-->
+            <!--            app:popupTheme="@style/AppTheme.PopupOverlay" />-->
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+
+        android:id="@+id/scrollFeed"
+        android:layout_width="match_parent"
+        android:layout_height="552dp"
+        android:background="@drawable/centre_background"
+
+        android:focusableInTouchMode="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/personalDetailsCard"
+            style="@style/centreLocatorCardDesign"
+            android:layout_marginTop="10dp"
+            android:background="#fff"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:focusableInTouchMode="false"
+                android:orientation="vertical"
+                android:background="#fff"
+                android:padding="20dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtInputName"
+                    android:textColorHint="@color/colorPrimaryText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/student_name"
+                        style="@style/modifiedEditTextStudent"
+                        android:hint="Name"
+                        android:singleLine="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtInputEmail"
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/colorPrimaryText"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/redg_no"
+                        style="@style/modifiedEditTextStudent"
+                        android:ems="10"
+                        android:hint="Registration Number"
+                        android:inputType="number" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtInputMob"
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/colorPrimaryText"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/student_pass"
+                        style="@style/modifiedEditTextStudent"
+                        android:hint="Password"
+                        android:inputType="textPassword" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtInputReg"
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/colorPrimaryText"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/student_sem"
+                        style="@style/modifiedEditTextStudent"
+                        android:hint="Semester"
+                        android:inputType="number"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtInputFeedback"
+                    android:textColorHint="@color/colorPrimaryText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/student_sec"
+                        style="@style/modifiedEditTextStudent"
+                        android:hint="Section"
+                        android:inputType="textCapCharacters"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtMentorFeedback"
+                    android:textColorHint="@color/colorPrimaryText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/Metor_id"
+                        style="@style/modifiedEditTextStudent"
+                        android:hint="Mentor Id"
+                        android:inputType="text"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        style="@style/modifiedEditTextStudent"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="Branch"
+                        android:paddingBottom="10dp"
+                                                android:textColor="@color/colorPrimaryText" />
+
+                    <Spinner
+                        android:background="@drawable/bg_spinner"
+                        android:id="@+id/student_branch"
+                        android:layout_width="220dp"
+                        android:layout_height="40dp"
+                        android:popupBackground="@drawable/centre_background"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="127dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:spinnerMode="dropdown"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+
+                        style="@style/modifiedEditTextStudent"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="Batch"
+                        android:textColor="@color/colorPrimaryText" />
+
+                    <Spinner
+                        android:id="@+id/student_batch"
+                        android:layout_width="220dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="128dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/bg_spinner"
+                        android:popupBackground="@drawable/centre_background"
+                        android:spinnerMode="dropdown" />
+                </RelativeLayout>
+
+
+
+
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/stub"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@drawable/centre_button"
+                    android:text="CREATE"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

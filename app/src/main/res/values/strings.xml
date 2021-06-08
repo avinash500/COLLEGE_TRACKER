@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">COLLEGE TRACKER</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">ATTENDANCE </string>
+    <string name="slide_1_desc">The easiest way to take attendance without roll call!</string>
+
+    <string name="slide_2_title">NOTES</string>
+    <string name="slide_2_desc">Get the notes for all subjects updated in one place!</string>
+
+    <string name="slide_3_title">MENTORING</string>
+    <string name="slide_3_desc">Get mentorship from your best mentors!</string>
+
+    <string name="slide_4_title">CHAT</string>
+    <string name="slide_4_desc">Chat with your mentors and resolve any kind of doubts or issues!</string>
+    <string name="title_activity_teacher_main">TeacherMainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_Logout">Logout</string>
+    <string name="action_viewpdf">View Notes</string>
+    <string name="menu_attendance">Attendance</string>
+    <string name="menu_viewattendance">View Attendance</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_notes">Notes</string>
+    <string name="menu_settings">View Attendance</string>
+    <string name="menu_sattendance">Attendance</string>
+    <string name="menu_schat">Chat</string>
+    <string name="menu_snotes">View Notes</string>
+    <string name="menu_sclub">Society and clubs</string>
+    <string name="menu_ssocial">Social</string>
+    <string name="menu_forum">Forum</string>
+    <string name="menu_question">Question</string>
+    <string name="menu_results">Results</string>
+    <string name="menu_club">Society and Clubs</string>
+    <string name="menu_notice"><![CDATA[News & Events]]></string>
+</resources>

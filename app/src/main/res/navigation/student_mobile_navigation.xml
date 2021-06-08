@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_sattendance">
+
+    <fragment
+        android:id="@+id/nav_sattendance"
+        android:name="com.example.finalproject.student_ui.sattendance.SattendanceFragment"
+        android:label="@string/menu_sattendance"
+        tools:layout="@layout/fragment_sattendance" />
+
+    <fragment
+        android:id="@+id/nav_schat"
+        android:name="com.example.finalproject.student_ui.schat.SchatFragment"
+        android:label="@string/menu_schat"
+        tools:layout="@layout/fragment_schat"/>
+    <fragment
+        android:id="@+id/nav_snotes"
+        android:name="com.example.finalproject.student_ui.snotes.SnotesFragment"
+        android:label="@string/menu_notes"
+        tools:layout="@layout/fragment_snotes" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_ssocial"-->
+<!--        android:name="com.example.finalproject.student_ui.ssocial.SsocialFragment"-->
+<!--        android:label="@string/menu_ssocial"-->
+<!--        tools:layout="@layout/fragment_ssocial" />-->
+
+    <fragment
+        android:id="@+id/nav_sforum"
+        android:name="com.example.finalproject.student_ui.sforum.SforumFragment"
+        android:label="@string/menu_forum"
+        tools:layout="@layout/fragment_sforum" />
+    <fragment
+        android:id="@+id/nav_squestion"
+        android:name="com.example.finalproject.student_ui.squestion.SquestionFragment"
+        android:label="@string/menu_question"
+        tools:layout="@layout/fragment_squestion" />
+    <fragment
+        android:id="@+id/nav_sresult"
+        android:name="com.example.finalproject.student_ui.sresult.SresultFragment"
+        android:label="@string/menu_results"
+        tools:layout="@layout/fragment_sresult" />
+    <fragment
+        android:id="@+id/nav_snotice"
+        android:name="com.example.finalproject.student_ui.snotice.SnoticeFragment"
+        android:label="@string/menu_notice"
+        tools:layout="@layout/fragment_snotice" />
+    <fragment
+        android:id="@+id/nav_sclub"
+        android:name="com.example.finalproject.student_ui.sclub.SclubFragment"
+        android:label="@string/menu_club"
+        tools:layout="@layout/fragment_snotice" />
+
+
+</navigation>

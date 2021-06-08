@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_attendance">
+
+    <fragment
+        android:id="@+id/nav_attendance"
+        android:name="com.example.finalproject.teacher_ui.attendance.AttendanceFragment"
+        android:label="@string/menu_attendance"
+        tools:layout="@layout/fragment_attendance" />
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.example.finalproject.teacher_ui.chat.ChatFragment"
+        android:label="@string/menu_chat"
+        tools:layout="@layout/fragment_chat" />
+
+    <fragment
+        android:id="@+id/nav_notes"
+        android:name="com.example.finalproject.teacher_ui.notes.NotesFragment"
+        android:label="@string/menu_notes"
+        tools:layout="@layout/fragment_notes" />
+
+
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.finalproject.teacher_ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_sforum"
+        android:name="com.example.finalproject.student_ui.sforum.SforumFragment"
+        android:label="@string/menu_forum"
+        tools:layout="@layout/fragment_sforum" />
+    <fragment
+        android:id="@+id/nav_snotice"
+        android:name="com.example.finalproject.student_ui.snotice.SnoticeFragment"
+        android:label="@string/menu_notice"
+        tools:layout="@layout/fragment_snotice" />
+
+    <fragment
+        android:id="@+id/nav_sclub"
+        android:name="com.example.finalproject.student_ui.sclub.SclubFragment"
+        android:label="@string/menu_club"
+        tools:layout="@layout/fragment_snotice" />
+
+
+
+
+
+</navigation>

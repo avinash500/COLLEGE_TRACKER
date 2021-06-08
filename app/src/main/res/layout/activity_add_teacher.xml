@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".AddTeacher"
+    android:background="@drawable/centralbkteacher">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="@drawable/centralbkteacher">
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="#5667C1"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="293dp"
+                android:background="@drawable/centralbkteacher">
+
+                <ImageView
+                    android:layout_width="196dp"
+                    android:layout_height="268dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:src="@drawable/enquiry_bk" />
+
+            </RelativeLayout>
+
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:id="@+id/toolbar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="?attr/actionBarSize"-->
+<!--            app:layout_collapseMode="pin"-->
+<!--            android:background="@drawable/centre_background"-->
+<!--            app:popupTheme="@style/AppTheme.PopupOverlay" />-->
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+
+        android:id="@+id/scrollFeed"
+        android:layout_width="match_parent"
+        android:layout_height="552dp"
+        android:background="@drawable/centralbkteacher"
+
+        android:focusableInTouchMode="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/personalDetailsCard"
+            style="@style/centreLocatorCardDesign"
+            android:layout_marginTop="10dp"
+            android:background="#fff"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:focusableInTouchMode="false"
+                android:orientation="vertical"
+                android:background="#fff"
+                android:padding="20dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtInputName"
+                    android:textColorHint="@color/colorPrimaryText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/tname"
+                        style="@style/modifiedEditTextTeacher"
+                        android:hint="Name"
+                        android:singleLine="true"
+                        android:textColorHighlight="#5619c3"
+                        android:textColorLink="#5619c3" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtInputEmail"
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/colorPrimaryText2"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/tid"
+                        style="@style/modifiedEditTextTeacher"
+                        android:ems="10"
+                        android:hint="Teacher Id"
+                        android:inputType="text" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtInputMob"
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/colorPrimaryText2"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/temail"
+                        style="@style/modifiedEditTextTeacher"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtInputReg"
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/colorPrimaryText2"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/tpass"
+                        style="@style/modifiedEditTextTeacher"
+                        android:hint="Password"
+                        android:inputType="textPassword"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        style="@style/modifiedEditTextTeacher"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="Branch"
+                        android:textColor="@color/colorPrimaryText2" />
+
+                    <Spinner
+                        android:id="@+id/Teacherspin"
+                        android:layout_width="220dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="105dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/bg_spinner_t"
+                        android:popupBackground="@drawable/centralbkteacher"
+                        android:spinnerMode="dropdown" />
+                </RelativeLayout>
+
+
+
+
+
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/addTeacher"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@drawable/centrakbutton2"
+                    android:text="CREATE"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
